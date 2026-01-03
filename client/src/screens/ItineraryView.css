@@ -1,0 +1,119 @@
+.itinerary-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.itinerary-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.trip-dates {
+  color: #666;
+  margin: 10px 0;
+}
+
+.trip-description {
+  color: #666;
+  margin-top: 10px;
+}
+
+.itinerary-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.itinerary-stop {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.stop-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #4CAF50;
+}
+
+.stop-dates {
+  color: #666;
+  font-size: 14px;
+}
+
+.city-description {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.activities-list {
+  margin-top: 20px;
+}
+
+.activities-list h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.activity-item {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.activity-info h4 {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.activity-type {
+  color: #4CAF50;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.activity-description {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.activity-meta {
+  display: flex;
+  gap: 15px;
+  font-size: 14px;
+  color: #999;
+  flex-wrap: wrap;
+}
+
+.itinerary-calendar {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .itinerary-header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .stop-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+

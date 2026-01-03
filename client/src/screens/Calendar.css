@@ -1,0 +1,81 @@
+.calendar-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.calendar-wrapper {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.calendar-details {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.calendar-details h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.day-stops,
+.day-activities {
+  margin-top: 20px;
+}
+
+.day-stops h3,
+.day-activities h3 {
+  margin-bottom: 15px;
+  color: #4CAF50;
+}
+
+.stop-info {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.activity-item {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.activity-item h4 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.activity-city {
+  color: #666;
+  font-size: 14px;
+}
+
+.no-activities {
+  text-align: center;
+  padding: 40px;
+  color: #999;
+}
+
+.calendar-activity-dot {
+  width: 6px;
+  height: 6px;
+  background: #4CAF50;
+  border-radius: 50%;
+  margin: 2px auto;
+}
+
+@media (max-width: 968px) {
+  .calendar-container {
+    grid-template-columns: 1fr;
+  }
+}
+

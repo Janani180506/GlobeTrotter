@@ -1,0 +1,102 @@
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.dashboard-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.stat-card {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.stat-card h3 {
+  font-size: 36px;
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+.stat-card p {
+  color: #666;
+  font-size: 14px;
+}
+
+.dashboard-section {
+  margin-bottom: 40px;
+}
+
+.dashboard-section h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.trip-grid,
+.city-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.trip-card,
+.city-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.trip-card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.trip-dates {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.trip-stops {
+  color: #999;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.trip-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.city-card h4 {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.city-cost {
+  color: #666;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+  border-radius: 8px;
+}
+
+.empty-state p {
+  margin-bottom: 20px;
+  color: #666;
+}
+

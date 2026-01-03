@@ -1,0 +1,92 @@
+.budget-summary {
+  margin-bottom: 30px;
+}
+
+.budget-card {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.budget-card.total {
+  background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+  color: white;
+}
+
+.budget-amount {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.budget-days {
+  font-size: 18px;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
+
+.budget-per-day {
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.budget-breakdown {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.budget-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.budget-item:last-child {
+  border-bottom: none;
+}
+
+.budget-label {
+  font-size: 18px;
+  color: #333;
+}
+
+.budget-value {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+.budget-charts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 30px;
+}
+
+.chart-card {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.chart-card h3 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .budget-charts {
+    grid-template-columns: 1fr;
+  }
+
+  .budget-amount {
+    font-size: 36px;
+  }
+}
+
